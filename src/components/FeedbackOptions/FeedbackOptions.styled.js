@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-  padding: 5px;
+  padding: 5px 20px;
   margin: 5px 10px;
-  font-size: ${props => props.theme.fontSizes.m};
+  font-size: ${props => props.theme.fontSizes.ml};
+  text-transform: capitalize;
   background-color: ${props => props.theme.colors.primary};
   border: none;
   border-radius: 5px;
