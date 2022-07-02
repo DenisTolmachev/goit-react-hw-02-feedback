@@ -9,7 +9,7 @@ export const Statistics = props => {
       <p className="StatisticsValue">Neutral: {neutral}</p>
       <p className="StatisticsValue">Bad: {bad}</p>
       <p className="StatisticsValue">Total: {total}</p>
-      <p className="StatisticsValue">Average: {percentage}%</p>
+      <p className="StatisticsValue">Positive feedback: {percentage}%</p>
     </div>
   );
 };
