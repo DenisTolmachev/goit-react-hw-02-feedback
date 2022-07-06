@@ -6,7 +6,7 @@ export const StatisticsList = styled.ul`
 `;
 
 export const StatisticsItem = styled.li`
-padding-top: 10px;
+  padding-top: 10px;
   padding-bottom: 10px;
   font-size: ${({ theme }) => theme.fontSizes.ml};
   :nth-last-child(3) {

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Main = styled.main`
+export const Container = styled.div`
 padding: 10px 50px;
 margin:0 auto;
 margin-top: 50px;
